@@ -1,0 +1,320 @@
+2/29/2024-1:14:05 PM INFO Initiating process
+2/29/2024-1:14:05 PM INFO Validating Tenant ID: 0ea7bba9-6311-47d8-be00-91b71da2d6f7
+2/29/2024-1:14:05 PM INFO Validating Subscription: Group1001_Man_Sub_1 - 3089cc8f-f25b-4bb8-bbef-9b387e6731a9
+2/29/2024-1:14:05 PM INFO Validating Resource group: Migrate
+2/29/2024-1:14:05 PM INFO Validating Azure Migrate project: group1001
+2/29/2024-1:14:05 PM INFO Validating Discovery Site name: group10011827mastersite
+2/29/2024-1:14:05 PM INFO Validating Assessment Project name: sv3510404067project
+2/29/2024-1:14:05 PM INFO Validating selected source appliances: vmware,hyperv,physical
+2/29/2024-1:14:05 PM INFO Validating Workflow: Express
+2/29/2024-1:14:05 PM INFO Validating target region: East US
+2/29/2024-1:14:05 PM INFO Validating currency: United States – Dollar ($) USD
+2/29/2024-1:14:05 PM INFO Validating assessment duration: Day
+2/29/2024-1:14:05 PM INFO Validating optimization preference: Modernize to PaaS (PaaS preferred)
+2/29/2024-1:14:05 PM INFO Validated user input
+2/29/2024-1:14:05 PM INFO Initiating discovered data retrieval
+2/29/2024-1:14:05 PM INFO Deleting previous discovery reports, if any
+2/29/2024-1:14:05 PM INFO No discovery reports found
+2/29/2024-1:14:06 PM INFO Received discovery sites
+2/29/2024-1:14:06 PM INFO Finished parsing discovery sites
+2/29/2024-1:14:06 PM INFO Retrieving discovery data from VMWare sites
+2/29/2024-1:14:06 PM INFO Retrieving discovery data from HyperV sites
+2/29/2024-1:14:06 PM INFO Retrieving discovery data from Physical sites
+2/29/2024-1:14:06 PM INFO Retrieved discovery data for 0 machines from Physical sites
+2/29/2024-1:14:06 PM INFO Retrieved discovery data for 0 machines from HyperV sites
+2/29/2024-1:14:45 PM INFO Retrieved discovery data for 298 machines from VMWare sites
+2/29/2024-1:14:45 PM INFO Retrieved discovery data for 298 machines
+2/29/2024-1:14:45 PM INFO Generating model for discovery properties
+2/29/2024-1:14:46 PM INFO Discovery report excel created successfully
+2/29/2024-1:14:46 PM INFO Discovery process completed successfully
+2/29/2024-1:14:46 PM INFO Initating assessment
+2/29/2024-1:14:46 PM INFO Deleting previous assessment reports, if any
+2/29/2024-1:14:46 PM INFO Deleting previous core report
+2/29/2024-1:14:46 PM INFO No core report found
+2/29/2024-1:14:46 PM INFO Deleting previous opportunity report
+2/29/2024-1:14:46 PM INFO No opportunity report found
+2/29/2024-1:14:46 PM INFO Deleting previous clash report
+2/29/2024-1:14:46 PM INFO No clash report found
+2/29/2024-1:14:46 PM INFO Discovery data validated successfully
+2/29/2024-1:14:46 PM INFO Total discovered machines: 298
+2/29/2024-1:14:50 PM INFO Retrieved data for 298 assessment site machine
+2/29/2024-1:14:50 PM INFO ID for this session: 00276
+2/29/2024-1:14:50 PM INFO Obtaining Business case settings
+2/29/2024-1:14:50 PM INFO Creating business case bizcase-ame-00276
+2/29/2024-1:14:52 PM INFO Business case bizcase-ame-00276 created
+2/29/2024-1:15:52 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:15:53 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:16:53 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:16:54 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:17:54 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:17:54 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:18:54 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:18:55 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:19:55 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:19:56 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:20:56 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:20:57 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:21:57 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:21:58 PM INFO Business case bizcase-ame-00276 status is InProgress
+2/29/2024-1:22:58 PM INFO Polling business case bizcase-ame-00276 for status
+2/29/2024-1:22:59 PM INFO Business case bizcase-ame-00276 completed
+2/29/2024-1:22:59 PM INFO Polling for business case bizcase-ame-00276 completed
+2/29/2024-1:22:59 PM INFO Business case bizcase-ame-00276 is in Completed state
+2/29/2024-1:22:59 PM INFO Total Prod environment machines: 298
+2/29/2024-1:22:59 PM INFO Machines for Azure VMWare solution: 298
+2/29/2024-1:22:59 PM INFO Prod environment SQL machines: 27
+2/29/2024-1:22:59 PM INFO Prod environment machines with web applications: 33
+2/29/2024-1:22:59 PM INFO General VM count: 241
+2/29/2024-1:22:59 PM INFO Machines with SQL services: 0
+2/29/2024-1:22:59 PM INFO Creating container for group AzureVM-Prod-AME-00276
+2/29/2024-1:23:00 PM INFO Group AzureVM-Prod-AME-00276 container created
+2/29/2024-1:23:00 PM INFO Updating group AzureVM-Prod-AME-00276 with 298 machines
+2/29/2024-1:23:01 PM INFO Updated group AzureVM-Prod-AME-00276 with machines
+2/29/2024-1:23:01 PM INFO Group AzureVM-Prod-AME-00276 created successfully
+2/29/2024-1:23:01 PM INFO Creating container for group Azure-VMWareSolution-AME-00276
+2/29/2024-1:23:02 PM INFO Group Azure-VMWareSolution-AME-00276 container created
+2/29/2024-1:23:02 PM INFO Updating group Azure-VMWareSolution-AME-00276 with 298 machines
+2/29/2024-1:23:04 PM INFO Updated group Azure-VMWareSolution-AME-00276 with machines
+2/29/2024-1:23:04 PM INFO Group Azure-VMWareSolution-AME-00276 created successfully
+2/29/2024-1:23:04 PM INFO Creating container for group SQL-Prod-AME-00276
+2/29/2024-1:23:05 PM INFO Group SQL-Prod-AME-00276 container created
+2/29/2024-1:23:05 PM INFO Updating group SQL-Prod-AME-00276 with 27 machines
+2/29/2024-1:23:06 PM INFO Updated group SQL-Prod-AME-00276 with machines
+2/29/2024-1:23:06 PM INFO Group SQL-Prod-AME-00276 created successfully
+2/29/2024-1:23:06 PM INFO Creating container for group WebApp-Prod-AME-00276
+2/29/2024-1:23:07 PM INFO Group WebApp-Prod-AME-00276 container created
+2/29/2024-1:23:07 PM INFO Updating group WebApp-Prod-AME-00276 with 33 machines
+2/29/2024-1:23:08 PM INFO Updated group WebApp-Prod-AME-00276 with machines
+2/29/2024-1:23:08 PM INFO Group WebApp-Prod-AME-00276 created successfully
+2/29/2024-1:23:08 PM INFO Created groups: 4
+2/29/2024-1:23:08 PM INFO Initiating polling for status of created groups
+2/29/2024-1:23:08 PM INFO Polling group AzureVM-Prod-AME-00276 for status
+2/29/2024-1:23:09 PM INFO Group AzureVM-Prod-AME-00276 completed
+2/29/2024-1:23:09 PM INFO Polling group Azure-VMWareSolution-AME-00276 for status
+2/29/2024-1:23:09 PM INFO Group Azure-VMWareSolution-AME-00276 completed
+2/29/2024-1:23:09 PM INFO Polling group SQL-Prod-AME-00276 for status
+2/29/2024-1:23:10 PM INFO Group SQL-Prod-AME-00276 completed
+2/29/2024-1:23:10 PM INFO Polling group WebApp-Prod-AME-00276 for status
+2/29/2024-1:23:11 PM INFO Group WebApp-Prod-AME-00276 completed
+2/29/2024-1:23:11 PM INFO Completed groups: 4
+2/29/2024-1:23:11 PM INFO Obtaining AzureVM assessment settings for group AzureVM-Prod-AME-00276
+2/29/2024-1:23:11 PM INFO Obtaining Azure VMWare solution assessment settings for group Azure-VMWareSolution-AME-00276
+2/29/2024-1:23:11 PM INFO Obtaining Azure SQL assessment settings for group SQL-Prod-AME-00276
+2/29/2024-1:23:11 PM INFO Obtaining Azure WepApp assessment settings for group WebApp-Prod-AME-00276
+2/29/2024-1:23:11 PM INFO Total assessments to be created: 17
+2/29/2024-1:23:11 PM INFO Sorting assessments based on creation priority, assessments which take the most time, will be created first
+2/29/2024-1:23:11 PM INFO Initiating Assessment creation
+2/29/2024-1:23:11 PM INFO Creating assessment SQL-Prod-AzMigExport-5 in group SQL-Prod-AME-00276
+2/29/2024-1:23:13 PM INFO Assessment SQL-Prod-AzMigExport-5 created in group SQL-Prod-AME-00276
+2/29/2024-1:23:13 PM INFO Creating assessment SQL-Prod-AzMigExport-4 in group SQL-Prod-AME-00276
+2/29/2024-1:23:14 PM INFO Assessment SQL-Prod-AzMigExport-4 created in group SQL-Prod-AME-00276
+2/29/2024-1:23:14 PM INFO Creating assessment SQL-Prod-AzMigExport-3 in group SQL-Prod-AME-00276
+2/29/2024-1:23:16 PM INFO Assessment SQL-Prod-AzMigExport-3 created in group SQL-Prod-AME-00276
+2/29/2024-1:23:16 PM INFO Creating assessment SQL-Prod-AzMigExport-2 in group SQL-Prod-AME-00276
+2/29/2024-1:23:17 PM INFO Assessment SQL-Prod-AzMigExport-2 created in group SQL-Prod-AME-00276
+2/29/2024-1:23:17 PM INFO Creating assessment SQL-Prod-AzMigExport-1 in group SQL-Prod-AME-00276
+2/29/2024-1:23:19 PM INFO Assessment SQL-Prod-AzMigExport-1 created in group SQL-Prod-AME-00276
+2/29/2024-1:23:19 PM INFO Creating assessment WebApp-Prod-AzMigExport-3 in group WebApp-Prod-AME-00276
+2/29/2024-1:23:20 PM INFO Assessment WebApp-Prod-AzMigExport-3 created in group WebApp-Prod-AME-00276
+2/29/2024-1:23:20 PM INFO Creating assessment WebApp-Prod-AzMigExport-1 in group WebApp-Prod-AME-00276
+2/29/2024-1:23:21 PM INFO Assessment WebApp-Prod-AzMigExport-1 created in group WebApp-Prod-AME-00276
+2/29/2024-1:23:21 PM INFO Creating assessment WebApp-Prod-AzMigExport-2 in group WebApp-Prod-AME-00276
+2/29/2024-1:23:22 PM INFO Assessment WebApp-Prod-AzMigExport-2 created in group WebApp-Prod-AME-00276
+2/29/2024-1:24:13 PM INFO Polling assessment SQL-Prod-AzMigExport-5 for status
+2/29/2024-1:24:13 PM INFO Assessment SQL-Prod-AzMigExport-5 status is Running
+2/29/2024-1:24:14 PM INFO Polling assessment SQL-Prod-AzMigExport-4 for status
+2/29/2024-1:24:15 PM INFO Assessment SQL-Prod-AzMigExport-4 status is Running
+2/29/2024-1:24:16 PM INFO Polling assessment SQL-Prod-AzMigExport-3 for status
+2/29/2024-1:24:17 PM INFO Assessment SQL-Prod-AzMigExport-3 status is Running
+2/29/2024-1:24:17 PM INFO Polling assessment SQL-Prod-AzMigExport-2 for status
+2/29/2024-1:24:18 PM INFO Assessment SQL-Prod-AzMigExport-2 status is Running
+2/29/2024-1:24:19 PM INFO Polling assessment SQL-Prod-AzMigExport-1 for status
+2/29/2024-1:24:20 PM INFO Assessment SQL-Prod-AzMigExport-1 status is Running
+2/29/2024-1:24:20 PM INFO Polling assessment WebApp-Prod-AzMigExport-3 for status
+2/29/2024-1:24:21 PM INFO Assessment WebApp-Prod-AzMigExport-3 completed
+2/29/2024-1:24:21 PM INFO Polling for assessment WebApp-Prod-AzMigExport-3 completed
+2/29/2024-1:24:21 PM INFO Creating assessment AVS-Prod-AzMigExport-3 in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:24:21 PM INFO Polling assessment WebApp-Prod-AzMigExport-1 for status
+2/29/2024-1:24:22 PM INFO Assessment AVS-Prod-AzMigExport-3 created in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:24:22 PM INFO Assessment WebApp-Prod-AzMigExport-1 completed
+2/29/2024-1:24:22 PM INFO Polling for assessment WebApp-Prod-AzMigExport-1 completed
+2/29/2024-1:24:22 PM INFO Creating assessment AVS-Prod-AzMigExport-1 in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:24:22 PM INFO Polling assessment WebApp-Prod-AzMigExport-2 for status
+2/29/2024-1:24:23 PM INFO Assessment WebApp-Prod-AzMigExport-2 completed
+2/29/2024-1:24:23 PM INFO Polling for assessment WebApp-Prod-AzMigExport-2 completed
+2/29/2024-1:24:23 PM INFO Assessment AVS-Prod-AzMigExport-1 created in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:24:23 PM INFO Creating assessment AVS-Prod-AzMigExport-2 in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:24:24 PM INFO Assessment AVS-Prod-AzMigExport-2 created in group Azure-VMWareSolution-AME-00276
+2/29/2024-1:25:13 PM INFO Polling assessment SQL-Prod-AzMigExport-5 for status
+2/29/2024-1:25:14 PM INFO Assessment SQL-Prod-AzMigExport-5 status is Running
+2/29/2024-1:25:15 PM INFO Polling assessment SQL-Prod-AzMigExport-4 for status
+2/29/2024-1:25:15 PM INFO Assessment SQL-Prod-AzMigExport-4 status is Running
+2/29/2024-1:25:17 PM INFO Polling assessment SQL-Prod-AzMigExport-3 for status
+2/29/2024-1:25:17 PM INFO Assessment SQL-Prod-AzMigExport-3 status is Running
+2/29/2024-1:25:18 PM INFO Polling assessment SQL-Prod-AzMigExport-2 for status
+2/29/2024-1:25:19 PM INFO Assessment SQL-Prod-AzMigExport-2 status is Running
+2/29/2024-1:25:20 PM INFO Polling assessment SQL-Prod-AzMigExport-1 for status
+2/29/2024-1:25:20 PM INFO Assessment SQL-Prod-AzMigExport-1 status is Running
+2/29/2024-1:25:22 PM INFO Polling assessment AVS-Prod-AzMigExport-3 for status
+2/29/2024-1:25:23 PM INFO Assessment AVS-Prod-AzMigExport-3 completed
+2/29/2024-1:25:23 PM INFO Polling for assessment AVS-Prod-AzMigExport-3 completed
+2/29/2024-1:25:23 PM INFO Creating assessment AzureVM-Prod-AzMigExport-6 in group AzureVM-Prod-AME-00276
+2/29/2024-1:25:23 PM INFO Polling assessment AVS-Prod-AzMigExport-1 for status
+2/29/2024-1:25:24 PM INFO Assessment AzureVM-Prod-AzMigExport-6 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:25:24 PM INFO Assessment AVS-Prod-AzMigExport-1 completed
+2/29/2024-1:25:24 PM INFO Polling for assessment AVS-Prod-AzMigExport-1 completed
+2/29/2024-1:25:24 PM INFO Creating assessment AzureVM-Prod-AzMigExport-5 in group AzureVM-Prod-AME-00276
+2/29/2024-1:25:24 PM INFO Polling assessment AVS-Prod-AzMigExport-2 for status
+2/29/2024-1:25:25 PM INFO Assessment AVS-Prod-AzMigExport-2 completed
+2/29/2024-1:25:25 PM INFO Polling for assessment AVS-Prod-AzMigExport-2 completed
+2/29/2024-1:25:25 PM INFO Assessment AzureVM-Prod-AzMigExport-5 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:25:25 PM INFO Creating assessment AzureVM-Prod-AzMigExport-4 in group AzureVM-Prod-AME-00276
+2/29/2024-1:25:27 PM INFO Assessment AzureVM-Prod-AzMigExport-4 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:26:14 PM INFO Polling assessment SQL-Prod-AzMigExport-5 for status
+2/29/2024-1:26:15 PM INFO Assessment SQL-Prod-AzMigExport-5 completed
+2/29/2024-1:26:15 PM INFO Polling for assessment SQL-Prod-AzMigExport-5 completed
+2/29/2024-1:26:15 PM INFO Creating assessment AzureVM-Prod-AzMigExport-3 in group AzureVM-Prod-AME-00276
+2/29/2024-1:26:15 PM INFO Polling assessment SQL-Prod-AzMigExport-4 for status
+2/29/2024-1:26:16 PM INFO Assessment SQL-Prod-AzMigExport-4 status is Running
+2/29/2024-1:26:16 PM INFO Assessment AzureVM-Prod-AzMigExport-3 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:26:17 PM INFO Polling assessment SQL-Prod-AzMigExport-3 for status
+2/29/2024-1:26:18 PM INFO Assessment SQL-Prod-AzMigExport-3 status is Running
+2/29/2024-1:26:19 PM INFO Polling assessment SQL-Prod-AzMigExport-2 for status
+2/29/2024-1:26:20 PM INFO Assessment SQL-Prod-AzMigExport-2 completed
+2/29/2024-1:26:20 PM INFO Polling for assessment SQL-Prod-AzMigExport-2 completed
+2/29/2024-1:26:20 PM INFO Creating assessment AzureVM-Prod-AzMigExport-2 in group AzureVM-Prod-AME-00276
+2/29/2024-1:26:20 PM INFO Polling assessment SQL-Prod-AzMigExport-1 for status
+2/29/2024-1:26:21 PM INFO Assessment AzureVM-Prod-AzMigExport-2 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:26:21 PM INFO Assessment SQL-Prod-AzMigExport-1 status is Running
+2/29/2024-1:26:24 PM INFO Polling assessment AzureVM-Prod-AzMigExport-6 for status
+2/29/2024-1:26:25 PM INFO Assessment AzureVM-Prod-AzMigExport-6 status is Running
+2/29/2024-1:26:25 PM INFO Polling assessment AzureVM-Prod-AzMigExport-5 for status
+2/29/2024-1:26:26 PM INFO Assessment AzureVM-Prod-AzMigExport-5 status is Running
+2/29/2024-1:26:27 PM INFO Polling assessment AzureVM-Prod-AzMigExport-4 for status
+2/29/2024-1:26:27 PM INFO Assessment AzureVM-Prod-AzMigExport-4 status is Running
+2/29/2024-1:27:16 PM INFO Polling assessment SQL-Prod-AzMigExport-4 for status
+2/29/2024-1:27:16 PM INFO Polling assessment AzureVM-Prod-AzMigExport-3 for status
+2/29/2024-1:27:17 PM INFO Assessment SQL-Prod-AzMigExport-4 completed
+2/29/2024-1:27:17 PM INFO Polling for assessment SQL-Prod-AzMigExport-4 completed
+2/29/2024-1:27:17 PM INFO Creating assessment AzureVM-Prod-AzMigExport-1 in group AzureVM-Prod-AME-00276
+2/29/2024-1:27:17 PM INFO Assessment AzureVM-Prod-AzMigExport-3 status is Running
+2/29/2024-1:27:18 PM INFO Assessment AzureVM-Prod-AzMigExport-1 created in group AzureVM-Prod-AME-00276
+2/29/2024-1:27:18 PM INFO Polling assessment SQL-Prod-AzMigExport-3 for status
+2/29/2024-1:27:19 PM INFO Assessment SQL-Prod-AzMigExport-3 completed
+2/29/2024-1:27:19 PM INFO Polling for assessment SQL-Prod-AzMigExport-3 completed
+2/29/2024-1:27:21 PM INFO Polling assessment AzureVM-Prod-AzMigExport-2 for status
+2/29/2024-1:27:21 PM INFO Polling assessment SQL-Prod-AzMigExport-1 for status
+2/29/2024-1:27:22 PM INFO Assessment AzureVM-Prod-AzMigExport-2 status is Running
+2/29/2024-1:27:22 PM INFO Assessment SQL-Prod-AzMigExport-1 completed
+2/29/2024-1:27:22 PM INFO Polling for assessment SQL-Prod-AzMigExport-1 completed
+2/29/2024-1:27:25 PM INFO Polling assessment AzureVM-Prod-AzMigExport-6 for status
+2/29/2024-1:27:26 PM INFO Assessment AzureVM-Prod-AzMigExport-6 completed
+2/29/2024-1:27:26 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-6 completed
+2/29/2024-1:27:26 PM INFO Polling assessment AzureVM-Prod-AzMigExport-5 for status
+2/29/2024-1:27:27 PM INFO Assessment AzureVM-Prod-AzMigExport-5 completed
+2/29/2024-1:27:27 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-5 completed
+2/29/2024-1:27:27 PM INFO Polling assessment AzureVM-Prod-AzMigExport-4 for status
+2/29/2024-1:27:28 PM INFO Assessment AzureVM-Prod-AzMigExport-4 completed
+2/29/2024-1:27:28 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-4 completed
+2/29/2024-1:28:17 PM INFO Polling assessment AzureVM-Prod-AzMigExport-3 for status
+2/29/2024-1:28:18 PM INFO Assessment AzureVM-Prod-AzMigExport-3 completed
+2/29/2024-1:28:18 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-3 completed
+2/29/2024-1:28:18 PM INFO Polling assessment AzureVM-Prod-AzMigExport-1 for status
+2/29/2024-1:28:19 PM INFO Assessment AzureVM-Prod-AzMigExport-1 completed
+2/29/2024-1:28:19 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-1 completed
+2/29/2024-1:28:22 PM INFO Polling assessment AzureVM-Prod-AzMigExport-2 for status
+2/29/2024-1:28:23 PM INFO Assessment AzureVM-Prod-AzMigExport-2 completed
+2/29/2024-1:28:23 PM INFO Polling for assessment AzureVM-Prod-AzMigExport-2 completed
+2/29/2024-1:28:23 PM INFO Assessment batch job completed
+2/29/2024-1:28:23 PM INFO Retrieved status information for 17 assessments
+2/29/2024-1:28:23 PM INFO Completed assessments: 17
+2/29/2024-1:28:23 PM INFO Completed assessment creation job
+2/29/2024-1:28:23 PM INFO Sorting different assessment types to create datasets
+2/29/2024-1:28:23 PM INFO Total Azure VM Assessments: 6
+2/29/2024-1:28:23 PM INFO Total Azure SQL Assessments: 5
+2/29/2024-1:28:23 PM INFO Total AVS Assessments: 3
+2/29/2024-1:28:23 PM INFO Total Web Application Assessments: 3
+2/29/2024-1:28:23 PM INFO Initiating parsing for AzureVM assessments
+2/29/2024-1:28:23 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-6
+2/29/2024-1:28:27 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-5
+2/29/2024-1:28:32 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-4
+2/29/2024-1:28:36 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-3
+2/29/2024-1:28:41 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-2
+2/29/2024-1:28:45 PM INFO Parsing Azure VM assessment AzureVM-Prod-AzMigExport-1
+2/29/2024-1:28:49 PM INFO Azure VM assessment parsing job completed
+2/29/2024-1:28:49 PM INFO Initiating parsing for AVS assessments
+2/29/2024-1:28:49 PM INFO Parsing AVS assessment AVS-Prod-AzMigExport-3
+2/29/2024-1:28:55 PM INFO Parsing AVS assessment AVS-Prod-AzMigExport-1
+2/29/2024-1:29:00 PM INFO Parsing AVS assessment AVS-Prod-AzMigExport-2
+2/29/2024-1:29:05 PM INFO AVS assessment parsing job completed
+2/29/2024-1:29:05 PM INFO Initiating parsing for Azure Web App assessments
+2/29/2024-1:29:05 PM INFO Parsing Azure Web App assessment WebApp-Prod-AzMigExport-3
+2/29/2024-1:29:07 PM INFO Parsing Azure Web App assessment WebApp-Prod-AzMigExport-1
+2/29/2024-1:29:08 PM INFO Parsing Azure Web App assessment WebApp-Prod-AzMigExport-2
+2/29/2024-1:29:10 PM INFO Azure Web App assessment parsing job completed
+2/29/2024-1:29:10 PM INFO Initiating parsing for Azure SQL assessed instances
+2/29/2024-1:29:10 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-5 for SQL instance data
+2/29/2024-1:29:11 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-4 for SQL instance data
+2/29/2024-1:29:12 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-3 for SQL instance data
+2/29/2024-1:29:14 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-2 for SQL instance data
+2/29/2024-1:29:15 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-1 for SQL instance data
+2/29/2024-1:29:16 PM INFO Azure SQL assessed instances parsing job completed
+2/29/2024-1:29:16 PM INFO Initiating parsing for Azure SQL assessed machines
+2/29/2024-1:29:16 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-5 for SQL Machines data
+2/29/2024-1:29:18 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-4 for SQL Machines data
+2/29/2024-1:29:19 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-3 for SQL Machines data
+2/29/2024-1:29:20 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-2 for SQL Machines data
+2/29/2024-1:29:21 PM INFO Parsing Azure SQL assessment SQL-Prod-AzMigExport-1 for SQL Machines data
+2/29/2024-1:29:23 PM INFO Azure SQL assessed machines parsing job completed
+2/29/2024-1:29:23 PM INFO Initiating parsing for business case
+2/29/2024-1:29:27 PM INFO Business case parsing job completed
+2/29/2024-1:29:27 PM INFO Processing datasets to generate excel models
+2/29/2024-1:29:27 PM INFO Creating excel model for assessment properties
+2/29/2024-1:29:27 PM INFO Creating excel model for All_VM_IaaS_Server_Rehost_Perf
+2/29/2024-1:29:27 PM INFO Updated All_VM_IaaS_Server_Rehost_Perf excel model with data of 293 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for SQL_All_Instances
+2/29/2024-1:29:27 PM INFO Updated SQL_All_Instances excel model with data of 46 instances
+2/29/2024-1:29:27 PM INFO Creating excel model for SQL_MI_PaaS
+2/29/2024-1:29:27 PM INFO Updated SQL_MI_PaaS excel model with data of 32 instances
+2/29/2024-1:29:27 PM INFO Number of instances that will be evaluated for Azure SQL instance rehost: 14
+2/29/2024-1:29:27 PM INFO Updated SQL_IaaS_Instance_Rehost_Perf excel model with data of 14 instances
+2/29/2024-1:29:27 PM INFO Number of servers that will be evaluated for Azure SQL server rehost: 0
+2/29/2024-1:29:27 PM INFO Creating excel model for WebApp_PaaS
+2/29/2024-1:29:27 PM INFO Updated WebApp_PaaS excel model with data of 32 web applications
+2/29/2024-1:29:27 PM INFO Creating excel model for WebApp_IaaS_Server_Rehost_Perf
+2/29/2024-1:29:27 PM INFO Updated excel model for WebApp_IaaS_Server_Rehost_Perf with data of 13 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for WebApp_IaaS_Server_Rehost_AsOnPrem
+2/29/2024-1:29:27 PM INFO Updated WebApp_IaaS_Server_Rehost_AsOnPrem excel model with data of 13 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for VM_IaaS_Server_Rehost_Perf
+2/29/2024-1:29:27 PM INFO Updated VM_IaaS_Server_Rehost_Perf excel model with data of 236 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for VM_IaaS_Server_Rehost_AsOnPrem
+2/29/2024-1:29:27 PM INFO Updated VM_IaaS_Server_Rehost_AsOnPrem excel model with data of 236 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for Business_Case
+2/29/2024-1:29:27 PM INFO Updated Business_Case excel model
+2/29/2024-1:29:27 PM INFO Creating excel model for Financial_Summary
+2/29/2024-1:29:27 PM INFO Updated excel model for Financial Summary
+2/29/2024-1:29:27 PM INFO Creating excel model for Cash_Flows
+2/29/2024-1:29:27 PM INFO Updated excel model for Cash_Flows
+2/29/2024-1:29:27 PM INFO Creating excel model for AVS_Summary 
+2/29/2024-1:29:27 PM INFO Updated AVS_Summary excel model with data of 3 assessments
+2/29/2024-1:29:27 PM INFO Creating excel model for AVS_IaaS_Rehost_Perf
+2/29/2024-1:29:27 PM INFO Updated AVS_IaaS_Rehost_Perf excel model with data of 298 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for SQL_MI_Issue_and_Warnings
+2/29/2024-1:29:27 PM INFO Updated SQL_MI_Issues_and_Warnings excel model with 41 datapoints
+2/29/2024-1:29:27 PM INFO Creating excel model for SQL_MI_Opportunity
+2/29/2024-1:29:27 PM INFO Updated SQL_MI_Opportunity excel model with data of 14 instances
+2/29/2024-1:29:27 PM INFO Creating excel model for WebApp_Opportunity
+2/29/2024-1:29:27 PM INFO Update WebApp_Opportunity model with data of 14 web applications
+2/29/2024-1:29:27 PM INFO Creating excel model for VM_Opportunity_Perf
+2/29/2024-1:29:27 PM INFO Updated VM_Opportunity_Perf excel model with data of 5 machines
+2/29/2024-1:29:27 PM INFO Creating excel model for VM_Opportunity_AsOnPrem
+2/29/2024-1:29:27 PM INFO Updated VM_Opportunity_AsOnPrem excel model with data of 5 machines
+2/29/2024-1:29:27 PM INFO Generating excel model for Clash_Report
+2/29/2024-1:29:27 PM INFO Updated Clash_Report excel model with data of 298 machines
+2/29/2024-1:29:27 PM INFO Completed job for creating excel models
+2/29/2024-1:29:27 PM INFO Generating core report excel sheet
+2/29/2024-1:29:27 PM INFO Generated core report excel sheet
+2/29/2024-1:29:27 PM INFO Generating opportunity report excel sheet
+2/29/2024-1:29:27 PM INFO Generated opportunity report excel sheet
+2/29/2024-1:29:27 PM INFO Generating clash report excel sheet
+2/29/2024-1:29:27 PM INFO Generated clash report excel sheet
